@@ -4,13 +4,10 @@ import styled from 'styled-components'
 import GlobalStyle from '../../theme/GlobalStyles'
 import imageUrl from '../../assets/images/choerry_motion_1.jpg'
 
-import ButtonAppBar from '../../components/Navigation/Navigation'
-
 function App() {
   return (
     <>
       <GlobalStyle />
-      <ButtonAppBar />
       <StyledAppContainer className="App" style={{backgroundImage: `url(${imageUrl})` }}>
         <StyledContent>
           <StyledParagraph>working on it to B#RN (or not)</StyledParagraph>
